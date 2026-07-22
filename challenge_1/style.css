@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffd63e;
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 20px;
+}
+
+.big_div {
+    background-color: #1e90ff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 90%;
+    height: 120px;
+}
+
+.pokemon_name {
+    color: yellow;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sub_div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sub_div img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.sub_div p {
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Last box */
+#special {
+    color: yellow;
+    font-weight: bold;
+}
